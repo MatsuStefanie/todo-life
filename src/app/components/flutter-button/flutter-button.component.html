@@ -1,0 +1,16 @@
+<div
+  class="button"
+  (mouseover)="on = true"
+
+  (mouseover)="on = true"
+  [@expand]="on ? 'up' : 'down'"
+>
+  <div class="options" [class.show]="on">
+    <ul>
+      <li (click)="action()">Nova lista</li>
+      <li (click)="action()">Novo item em...</li>
+      <li (click)="action()">Novo contato</li>
+    </ul>
+  </div>
+  <span class="material-symbols-outlined" [class.show]="on"> add </span>
+</div>

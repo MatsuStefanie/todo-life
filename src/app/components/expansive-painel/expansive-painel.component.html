@@ -1,0 +1,34 @@
+<main>
+  <section>
+    <div class="title" (click)="active = !active; flagViewActive()">
+      <span class="title">{{labelTitle}}</span>
+      <span class="material-symbols-outlined icon" [class.rotate]="active">
+        expand_more
+      </span>
+    </div>
+    <div
+      class="expandCollapse"
+      [@expandCollapse]="active ? 'expand' : 'collapse'"
+    >
+      <div *ngIf="anime">
+        <app-item-of-list-expansive
+          [label]="'textinho bonitinho 1'"
+        ></app-item-of-list-expansive>
+        <app-item-of-list-expansive
+          [label]="'textinho bonitinho 2'"
+        ></app-item-of-list-expansive>
+        <app-item-of-list-expansive
+          [label]="'textinho bonitinho 3'"
+        ></app-item-of-list-expansive>
+        <app-item-of-list-expansive
+          [label]="'textinho bonitinho 4'"
+        ></app-item-of-list-expansive>
+        <app-item-of-list-expansive
+          [label]="'textinho bonitinho 5'"
+        ></app-item-of-list-expansive>
+      </div>
+    </div>
+  </section>
+
+ 
+</main>

@@ -1,0 +1,9 @@
+<main>
+  <button
+    (mouseover)="mouse = !mouse"
+    (mouseout)="mouse = !mouse"
+    [@subtileHover]="mouse ? 'hover' : 'leave'"
+  >
+    {{ label }}
+  </button>
+</main>

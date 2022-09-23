@@ -1,0 +1,50 @@
+{
+  "nameList": "Casa",
+  "dateTime": "",
+  "locationOfCriation": "Phone X 437JH32KH2H",
+  "makeBy": "@UserReference",
+  "viewedBy": [
+    {
+      "nameUser": "@JoãoAbrel",
+      "dateTime": ""
+    },
+    {
+      "nameUser": "@MartaSantos",
+      "dateTime": ""
+    }
+  ],
+  "assignedTo": [
+    {
+      "userAssign": "@MartaSantos",
+      "dateTimeToAssign": ""
+    },
+    {
+      "userAssign": "@MariaSantos",
+      "dateTimeToAssign": ""
+    },
+    {
+      "userAssign": "@TaliaSantos",
+      "dateTimeToAssign": ""
+    }
+  ],
+  "items": [
+    {
+      "title": "Lavar louça",
+      "done": true,
+      "dateCriated": "",
+      "dueDate": "",
+      "endDate": "",
+      "isFavorite": true,
+      "alertIn": {
+        "enumMethed": "HOJE",
+        "referencyDay": "15/09/2022",
+        "hour": "12:00"
+      },
+      "repeat": {
+        "enumMethed": "ANUAL",
+        "referencyDay": "15/09/2022",
+        "hour": "13:00"
+      }
+    }
+  ]
+}

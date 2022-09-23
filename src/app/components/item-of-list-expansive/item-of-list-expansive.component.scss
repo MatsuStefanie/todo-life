@@ -1,0 +1,22 @@
+.itensOfList {
+  display: grid;
+  grid-template-columns: 1fr 16fr;
+  gap: 0 1vw;
+  margin: 1vw 0;
+
+  .circule {
+    width: 4vw;
+    height: 4vw;
+    border: 3px solid black;
+    border-radius: 50%;
+
+    &.select {
+      border: 3px solid transparent;
+      background-color: var(--global-primary-color);
+    }
+  }
+
+  .labelItem {
+    font-size: 4vw;
+  }
+}
